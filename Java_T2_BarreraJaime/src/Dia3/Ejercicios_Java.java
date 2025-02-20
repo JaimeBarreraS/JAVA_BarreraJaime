@@ -254,7 +254,96 @@ public class Ejercicios_Java {
                     System.out.println(num6 + (suma6 == num6 ? " es" : " no es") + " un Número Fuerte.");
                     break;
                 case 24:
-                    System.out.println("24. Convertir un número hexadecimal a decimal");   
+                    System.out.println("24. Convertir un número hexadecimal a decimal");
+                    System.out.print("Ingrese un número hexadecimal: ");
+                    String hex = scanner.nextLine();
+                    System.out.println("Decimal: " + Integer.parseInt(hex, 16));
+                    break;
+                case 25:
+                    System.out.println("25. convertir un número hexadecimal a octal.");System.out.print("Ingrese un número hexadecimal: ");
+                    hex = scanner.nextLine();
+                    System.out.println("Octal: " + Integer.toOctalString(Integer.parseInt(hex, 16)));
+                    break;
+                case 26:
+                    System.out.println("26. convertir un número hexadecimal a binario.");
+                    System.out.print("Ingrese un número hexadecimal: ");
+                    hex = scanner.nextLine();
+                    System.out.println("Binario: " + Integer.toBinaryString(Integer.parseInt(hex, 16)));
+                    break;
+                case 27:
+                    System.out.println("27. convertir un número decimal a hexadecimal.");
+                    System.out.print("Ingrese un número decimal: ");
+                    int decimal1 = scanner.nextInt();
+                    System.out.println("Hexadecimal: " + Integer.toHexString(decimal1));
+                    break;
+                case 28:
+                    System.out.println("28. convertir un número decimal a octal.");
+                    System.out.print("Ingrese un número decimal: ");
+                    decimal = scanner.nextInt();
+                    System.out.println("Octal: " + Integer.toOctalString(decimal));
+                    break;
+                case 29:
+                    System.out.println("29. cconvertir un número decimal a binario.");
+                    System.out.print("Ingrese un número decimal: ");
+                    decimal = scanner.nextInt();
+                    System.out.println("Binario: " + Integer.toBinaryString(decimal));
+                    break;
+                case 30:
+                    System.out.println("30. convertir un número binario a octal.");
+                    System.out.print("Ingrese un número binario: ");
+                    String bin = scanner.nextLine();
+                    System.out.println("Octal: " + Integer.toOctalString(Integer.parseInt(bin, 2)));
+                    break;
+                case 31:
+                    System.out.println("31. convertir un número binario a decimal.");
+                    System.out.print("Ingrese un número binario: ");
+                    bin = scanner.nextLine();
+                    System.out.println("Decimal: " + Integer.parseInt(bin, 2));
+                    break;
+                case 32:
+                    System.out.println("32. convertir un número binario a hexadecimal.");
+                    System.out.print("Ingrese un número binario: ");
+                    bin = scanner.nextLine();
+                    System.out.println("Hexadecimal: " + Integer.toHexString(Integer.parseInt(bin, 2)));
+                    break;
+                case 33:
+                    System.out.println("33. convertir un número octal a binario.");
+                    System.out.print("Ingrese un número octal: ");
+                    String octal = scanner.nextLine();
+                    System.out.println("Binario: " + Integer.toBinaryString(Integer.parseInt(octal, 8)));
+                    break;
+                case 34:
+                    System.out.println("34. convertir un número octal a decimal.");
+                    System.out.print("Ingrese un número octal: ");
+                    octal = scanner.nextLine();
+                    System.out.println("Decimal: " + Integer.parseInt(octal, 8));
+                    break;
+                case 35:
+                    System.out.println("35. convertir un número octal a hexadecimal.");
+                    System.out.print("Ingrese un número octal: ");
+                    octal = scanner.nextLine();
+                    System.out.println("Hexadecimal: " + Integer.toHexString(Integer.parseInt(octal, 8)));
+                    break;
+                case 36:
+                    break;
+                case 37:
+                    break;
+                case 38:
+                    break;
+                case 39:
+                    break;
+                case 40:
+                    break;
+                case 41:
+                    break;
+                case 42:
+                    break;
+                case 43:
+                    break;
+                case 44:
+                    break;
+                case 45:
+                    break;
                 default:
                     System.out.println("Opción no válida.");
             }
