@@ -105,6 +105,7 @@ public class Ejercicios_Java {
                     for (int i = b; i >= 1; i--) {
                         System.out.print(i + " ");
                     }
+                    break;
                 case 3:
                     System.out.println("3. Imprimir tablas de multiplicar.");
                     System.out.print("Ingrese un número: ");
