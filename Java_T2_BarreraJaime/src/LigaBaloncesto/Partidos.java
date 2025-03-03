@@ -118,9 +118,13 @@ public class Partidos {
 
     //OBTENER INFORMACION
     public String obtenerInformacion() {
-        return "Partido: " + equipoLocal + " vs " + equipoVisitante + " | Fecha: " + fecha +
-                " | Resultado: " + obtenerResultado() + " | Tiros: " + tiros + " | Faltas: " + faltas +
-                " | Estado: " + (finalizado ? "Finalizado" : "En juego");
+        return "Partido: " + equipoLocal + " vs " + equipoVisitante + "\n" +
+                "Fecha: " + fecha + "\n" +
+                "Resultado: " + obtenerResultado() + "\n" +
+                "Ganador: " + obtenerGanador() + "\n" +
+                "Tiros: " + tiros + "\n" +
+                "Faltas: " + faltas + "\n" +
+                "Estado: " + (finalizado ? "Finalizado" : "En juego");
     }
 }
 
