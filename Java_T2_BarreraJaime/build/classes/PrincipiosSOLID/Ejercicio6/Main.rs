@@ -1,0 +1,5 @@
+PrincipiosSOLID.Ejercicio6.Contacto
+PrincipiosSOLID.Ejercicio6.IMailSender
+PrincipiosSOLID.Ejercicio6.MailSender
+PrincipiosSOLID.Ejercicio6.CuentaBancaria
+PrincipiosSOLID.Ejercicio6.Main

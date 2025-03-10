@@ -1,0 +1,10 @@
+Dia12.Clase.Abstract.main$VentanaMac
+Dia12.Clase.Abstract.Ventana
+Dia12.Clase.Abstract.Boton
+Dia12.Clase.Abstract.GUIFactory
+Dia12.Clase.Abstract.main$WindowsFactory
+Dia12.Clase.Abstract.main$BotonMac
+Dia12.Clase.Abstract.main
+Dia12.Clase.Abstract.main$VentanaWindows
+Dia12.Clase.Abstract.main$MacFactory
+Dia12.Clase.Abstract.main$BotonWindows

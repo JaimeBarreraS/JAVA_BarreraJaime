@@ -1,0 +1,12 @@
+Dia11.SOLID.ISP.Animal
+Dia11.SOLID.ISP.Si
+Dia11.SOLID.ISP.Gato
+Dia11.SOLID.ISP.Salmon
+Dia11.SOLID.ISP.Pescado
+Dia11.SOLID.ISP.Leon
+Dia11.SOLID.ISP.Perro
+Dia11.SOLID.ISP.Ejemplo
+Dia11.SOLID.ISP.SimuladorAnimales
+Dia11.SOLID.ISP.Hablador
+Dia11.SOLID.ISP.Corredor
+Dia11.SOLID.ISP.Nadador

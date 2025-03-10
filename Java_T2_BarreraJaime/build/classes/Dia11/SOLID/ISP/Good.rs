@@ -1,0 +1,5 @@
+Dia11.SOLID.ISP.Workable
+Dia11.SOLID.ISP.Robot
+Dia11.SOLID.ISP.Eatable
+Dia11.SOLID.ISP.Good
+Dia11.SOLID.ISP.Human

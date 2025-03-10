@@ -1,0 +1,5 @@
+PrincipiosSOLID.Ejercicio5.Main
+PrincipiosSOLID.Ejercicio5.IOad
+PrincipiosSOLID.Ejercicio5.FacturaOad
+PrincipiosSOLID.Ejercicio5.FacturaOadDatosReadOnly
+PrincipiosSOLID.Ejercicio5.IOadReadOnly

@@ -1,0 +1,10 @@
+Dia11.SOLID.OCP.Good
+Dia11.SOLID.OCP.Shape
+SOLID.OCP.Good$Circle
+SOLID.OCP.Good
+SOLID.OCP.Shape
+SOLID.OCP.Good$AreaCalculator
+Dia11.SOLID.OCP.Good$Rectangle
+Dia11.SOLID.OCP.Good$AreaCalculator
+Dia11.SOLID.OCP.Good$Circle
+SOLID.OCP.Good$Rectangle
