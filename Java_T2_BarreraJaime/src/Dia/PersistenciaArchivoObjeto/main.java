@@ -7,13 +7,10 @@ package Dia.PersistenciaArchivoObjeto;
 
 
 import java.util.Scanner;
-
 import static Dia.PersistenciaArchivoObjeto.CRUDPersistencia.*;
 
 public class main {
     public static void main(String[] args) {
-        cargarDatos();
-
         Scanner sc = new Scanner(System.in);
         int opcion;
 
@@ -37,7 +34,6 @@ public class main {
                     System.out.print("Edad: ");
                     int edad = sc.nextInt();
                     agregarPersona(id, nombre, edad);
-                    guardarDatos();
                     break;
 
                 case 2:
@@ -53,14 +49,12 @@ public class main {
                     System.out.print("Nueva edad: ");
                     int nuevaEdad = sc.nextInt();
                     actualizarPersona(idActualizar, nuevoNombre, nuevaEdad);
-                    guardarDatos();
                     break;
 
                 case 4:
                     System.out.print("ID de la persona a eliminar: ");
                     int idEliminar = sc.nextInt();
                     eliminarPersona(idEliminar);
-                    guardarDatos();
                     break;
 
                 case 5:
@@ -75,4 +69,5 @@ public class main {
         sc.close();
     }
 }
+
 
