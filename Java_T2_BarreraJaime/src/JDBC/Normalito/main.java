@@ -45,7 +45,7 @@ public class main {
    
 
         // Buscar usuario por ID
-        int idBuscado = 2; // Puedes cambiar este valor para probar
+        int idBuscado = 2; 
         String usuarioEncontrado = usuarioDAO.buscarUsuarioPorId(idBuscado);
         System.out.println(usuarioEncontrado);
     }
