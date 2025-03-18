@@ -73,6 +73,46 @@ public class UsuarioDAO {
     catch (SQLException e) {
         e.printStackTrace();
     }
+    }
+    
+    // Eliminar
+    public void eliminarUsuario(int id) {
+        String sql = "delete from usuarios where id = ?";
+        try (
+                Connection conexionInterna = conectar();
+             PreparedStatement solicitud = conexionInterna.prepareStatement(sql)) {
+            solicitud.setInt(1, id);
+            int filas = solicitud.executeUpdate();
+            if (filas > 0) {
+                System.out.println("Usuario eliminada correctamente.");
+            } else {
+                System.out.println("No se pudo eliminar el usuario con ID " + id);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+    
+    public String buscarUsuarioPorId(int id) {
+    String sql = "select * from usuarios where id = ?";
+    try (
+        Connection conexionInterna = conectar();
+        PreparedStatement solicitud = conexionInterna.prepareStatement(sql)) {
+        
+        solicitud.setInt(1, id);
+        ResultSet resultado = solicitud.executeQuery();
+
+        if (resultado.next()) {
+            return resultado.getInt("id") + " - " +
+                   resultado.getString("nombre") + " - " +
+                   resultado.getString("email");
+        } else {
+            return "No se encontró ningún usuario con ID " + id;
+        }
+    } catch (SQLException e) {
+        e.printStackTrace();
+        return "Error al buscar el usuario.";
+    }
 }
 }
     
